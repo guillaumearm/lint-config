@@ -15,6 +15,7 @@ cd my-project
 
 npm init -y
 
-npm install -D typescript eslint prettier
-npm install -D @trapcodien/tsconfig @trapcodien/eslint-config @trapcodien/prettier-config
+npm install -D typescript @trapcodien/tsconfig
+npm install -D eslint @trapcodien/eslint-config
+npm install -D prettier @trapcodien/prettier-config
 ```
