@@ -6,8 +6,8 @@
     "prettier",
     "config"
   ],
-  "author": "Guillaume ARM <guillaume.arm@payfit.com>",
-  "homepage": "https://github.com/guillaumearm/lint-config#readme",
+  "author": "Guillaume ARM <trapcodien@gmail.com>",
+  "homepage": "https://github.com/guillaumearm/node-configs/tree/master/packages/tsconfig",
   "license": "MIT",
   "main": "index.js",
   "publishConfig": {
