@@ -11,6 +11,6 @@ Create a `.eslintrc` file with:
 {
   "extends": [
     "@trapcodien/eslint-config"
-  ],
+  ]
 }
 ```
