@@ -1,0 +1,30 @@
+{
+  "name": "@trapcodien/tsconfig",
+  "version": "1.0.1",
+  "description": "My main tsconfig file",
+  "keywords": [
+    "tsconfig",
+    "typescipt",
+    "ts"
+  ],
+  "author": "Guillaume ARM <guillaume.arm@payfit.com>",
+  "homepage": "https://github.com/guillaumearm/node-configs/tree/master/packages/tsconfig",
+  "license": "MIT",
+  "main": "tsconfig.json",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guillaumearm/node-configs.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/guillaumearm/node-configs/issues"
+  },
+  "peerDependencies": {
+    "typescript": ">= 4"
+  }
+}
