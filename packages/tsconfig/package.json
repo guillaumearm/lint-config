@@ -10,7 +10,7 @@
   "author": "Guillaume ARM <trapcodien@gmail.com>",
   "homepage": "https://github.com/guillaumearm/node-configs/tree/master/packages/tsconfig",
   "license": "MIT",
-  "main": "tsconfig.json",
+  "main": "tsconfig.base.json",
   "publishConfig": {
     "access": "public"
   },

@@ -33,6 +33,14 @@ Create a `tsconfig.json` file with:
 }
 ```
 
+or for React:
+
+```json
+{
+  "extends": "@trapcodien/tsconfig/tsconfig.react.json"
+}
+```
+
 ### Setup eslint
 
 ```shell
