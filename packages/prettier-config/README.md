@@ -12,10 +12,8 @@ npm install -D prettier @trapcodien/prettier-config
 
 ### Configuration
 
-create a `.prettierrc` file with this content:
+create a `.prettierrc.json` file with this content:
 
 ```json
-{
-  "prettier": "@trapcodien/prettier-config"
-}
+"@trapcodien/prettier-config"
 ```
