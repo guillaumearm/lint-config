@@ -1,0 +1,38 @@
+{
+  "name": "@trapcodien/eslint-config",
+  "version": "0.0.0",
+  "description": "My main eslint config for TS",
+  "keywords": [
+    "eslint",
+    "config",
+    "ts"
+  ],
+  "author": "Guillaume ARM <guillaume.arm@payfit.com>",
+  "homepage": "https://github.com/guillaumearm/lint-config#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guillaumearm/lint-config.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/guillaumearm/lint-config/issues"
+  },
+  "peerDependencies": {
+    "eslint": ">= 8"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "5.31.0",
+    "@typescript-eslint/parser": "5.31.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-eslint-comments": "3.2.0",
+    "eslint-plugin-functional": "4.2.2",
+    "eslint-plugin-import": "2.26.0"
+  }
+}

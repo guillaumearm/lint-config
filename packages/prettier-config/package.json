@@ -1,0 +1,29 @@
+{
+  "name": "@trapcodien/prettier-config",
+  "version": "0.0.0",
+  "description": "My main prettier config",
+  "keywords": [
+    "prettier",
+    "config"
+  ],
+  "author": "Guillaume ARM <guillaume.arm@payfit.com>",
+  "homepage": "https://github.com/guillaumearm/lint-config#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guillaumearm/lint-config.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/guillaumearm/lint-config/issues"
+  },
+  "peerDependencies": {
+    "prettier": ">= 2"
+  }
+}
