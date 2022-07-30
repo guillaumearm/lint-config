@@ -16,12 +16,7 @@ Create a `tsconfig.json` file with:
 
 ```json
 {
-  "extends": "@trapcodien/tsconfig/tsconfig.base.json",
-  "include": ["src/**/*.ts"],
-  "compilerOptions": {
-    "rootDir": "src",
-    "outDir": "dist"
-  }
+  "extends": "@trapcodien/tsconfig/tsconfig.base.json"
 }
 ```
 
@@ -29,11 +24,6 @@ Create a `tsconfig.json` file with:
 
 ```json
 {
-  "extends": "@trapcodien/tsconfig/tsconfig.react.json",
-  "include": ["src/**/*.ts", "src/**/*.tsx"],
-  "compilerOptions": {
-    "rootDir": "src",
-    "outDir": "dist"
-  }
+  "extends": "@trapcodien/tsconfig/tsconfig.react.json"
 }
 ```
