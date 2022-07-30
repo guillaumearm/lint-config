@@ -2,8 +2,6 @@
   "compilerOptions": {
     "incremental": true,
     "target": "es2017",
-    "outDir": "dist",
-    "rootDir": "src",
     "moduleResolution": "node",
     "module": "commonjs",
     "declaration": true,

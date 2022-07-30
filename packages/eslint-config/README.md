@@ -1,16 +1,21 @@
 # `@trapcodien/eslint-config`
+
 My main eslint config for TS
 
 ## Usage
 
-Install with `npm install --save-dev @trapcodien/eslint-config`
+### Installation
 
-Create a `.eslintrc` file with: 
+```shell
+npm install -D eslint @trapcodien/eslint-config
+```
+
+### Configuration
+
+Create a `.eslintrc` file with this content:
 
 ```json
 {
-  "extends": [
-    "@trapcodien/eslint-config"
-  ]
+  "extends": ["@trapcodien/eslint-config"]
 }
 ```

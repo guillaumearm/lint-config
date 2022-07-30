@@ -4,9 +4,15 @@ My main prettier config
 
 ## Usage
 
-Install with `npm install --save-dev @trapcodien/prettier-config`
+### Installation
 
-create a `.prettierrc` file with:
+```shell
+npm install -D prettier @trapcodien/prettier-config
+```
+
+### Configuration
+
+create a `.prettierrc` file with this content:
 
 ```json
 {

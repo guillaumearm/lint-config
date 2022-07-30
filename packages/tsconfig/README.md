@@ -4,27 +4,36 @@ My main tsconfig
 
 ## Usage
 
-Install with `npm install --save-dev @trapcodien/tsconfig`
+### Installation
 
+```shell
+npm install -D typescript @trapcodien/tsconfig
+```
 
-### with node
+### Basic configuration
 
 Create a `tsconfig.json` file with:
 
 ```json
 {
-  "extends": "@trapcodien/tsconfig"
+  "extends": "@trapcodien/tsconfig/tsconfig.base.json",
+  "include": ["src/**/*.ts"],
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist"
+  }
 }
 ```
 
-### with react
-
-Create a `tsconfig.json` file with:
+### React configuration:
 
 ```json
 {
-  "extends": "@trapcodien/tsconfig/tsconfig.react.json"
+  "extends": "@trapcodien/tsconfig/tsconfig.react.json",
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist"
+  }
 }
 ```
-
-
