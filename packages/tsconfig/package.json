@@ -1,6 +1,6 @@
 {
   "name": "@trapcodien/tsconfig",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "My main tsconfig file",
   "keywords": [
     "tsconfig",
